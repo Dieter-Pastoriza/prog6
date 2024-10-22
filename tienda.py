@@ -65,7 +65,7 @@ def main(page):
             if not (isinstance(control, ft.Row) and isinstance(control.controls[0], ft.Checkbox))
         ]
         page.update()
-    logo = ft.Image(src="img/tiendakarate.jpg", height=200)
+    logo = ft.Image(src="./tiendakarate.jpg", height=200)
     header_text = ft.Text("Bienvenidos a Dieter Sensei-Store", size=20, weight=ft.FontWeight.BOLD, color="#F0A500")
     header = ft.Column(controls=[logo, header_text], alignment="center")
 
